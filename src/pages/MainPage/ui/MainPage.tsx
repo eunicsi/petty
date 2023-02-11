@@ -1,11 +1,13 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
+import Loader from 'shared/ui/Loader/Loader';
 
 const MainPage = () => {
-	const [t, i18n] = useTranslation();
+	const { t } = useTranslation();
 
 	return (
 		<div>
+			<Loader />
+
 			{t('Главная страница')}
 		</div>
 	);

@@ -1,15 +1,17 @@
 import { Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { routeConfig } from 'shared/config/routeConfig/routeConfig';
+import Loader from 'shared/ui/Loader/Loader';
+import PageLoader from 'widgets/PageLoader/ui/PageLoader';
 
 const AppRouter = () => {
 	return (
-		<Suspense fallback={<div>Загрузка...</div>}>
+		<Suspense fallback={<PageLoader />}>
 			<Routes>
-				{Object.values(routeConfig).map(({element, path}) => 
-					<Route 
-						key={path} 
-						path={path} 
+				{Object.values(routeConfig).map(({ element, path }) =>
+					<Route
+						key={path}
+						path={path}
 						element={(
 							<div className='page-wrapper'>
 								{element}
@@ -18,7 +20,7 @@ const AppRouter = () => {
 					/>
 				)}
 			</Routes>
-		</Suspense> 
+		</Suspense>
 	);
 };
 

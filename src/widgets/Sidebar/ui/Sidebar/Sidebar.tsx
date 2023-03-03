@@ -12,9 +12,8 @@ const Sidebar: FC<SidebarProps> = (props) => {
 	const [collapsed, setCollapsed] = useState<boolean>(true);
 
 	const onToggle = () => {
-
-		setCollapsed(prev => !prev);
-	}
+		setCollapsed((prev) => !prev);
+	};
 
 	const {
 		className,
@@ -22,15 +21,15 @@ const Sidebar: FC<SidebarProps> = (props) => {
 
 	return (
 		<div
-			data-testid='sidebar'
+			data-testid="sidebar"
 			className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [className])}
 		>
-			<button
-				data-testid='sidebar-toggle'
+			{/* <button
+				data-testid="sidebar-toggle"
 				onClick={onToggle}
 			>
 				toggle
-			</button>
+			</button> */}
 			<div className={cls.switchers}>
 				<ThemeSwitcher />
 				<LangSwitcher />

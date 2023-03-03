@@ -23,6 +23,7 @@ module.exports = {
     'i18next',
   ],
   rules: {
+    'linebreak-style': ['error', process.platform === 'win32' ? 'windows' : 'unix'],
     'react/jsx-indent': [2, 'tab'],
     'react/jsx-indent-props': [2, 'tab'],
     indent: [2, 'tab'],

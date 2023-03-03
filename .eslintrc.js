@@ -23,10 +23,10 @@ module.exports = {
     'i18next',
   ],
   rules: {
-    'react/jsx-indent': [2, 'tab'],
+    'react/jsx-indent': [2, 'space'],
     'react/jsx-indent-props': [2, 'tab'],
-    'indent': [2, 'tab'],
-    "no-tabs": 0,
+    indent: [2, 'tab'],
+    'no-tabs': 0,
     'react/jsx-filename-extension': [
       2,
       { extensions: ['.js', '.jsx', '.tsx'] },

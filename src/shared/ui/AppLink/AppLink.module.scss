@@ -1,10 +1,5 @@
 .AppLink {
     color: var(--primary-color);
-    border-radius: 5px;
-    width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .primary {
@@ -12,14 +7,9 @@
 }
 
 .secondary {
-    color: var(--secondary-color);
+    color: var(--inverted-primary-color);
 }
 
 .red {
     color: red;
-}
-
-.AppLink:hover {
-    opacity: 0.5;
-    background-color: var(--bg-color);
 }

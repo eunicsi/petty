@@ -1,6 +1,6 @@
-import { t } from 'i18next';
-import { useEffect, useState } from 'react';
-import Button from 'shared/ui/Button/Button';
+import { t } from "i18next";
+import { useEffect, useState } from "react";
+import Button from "shared/ui/Button/Button";
 
 const BugButton = () => {
 	const [error, setError] = useState(false);
@@ -15,7 +15,7 @@ const BugButton = () => {
 		<Button
 			onClick={onThrow}
 		>
-			{t('Throw error')}
+			{t("Throw error")}
 		</Button>
 	);
 };

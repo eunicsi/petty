@@ -1,4 +1,4 @@
-import path from 'path';
+import path from "path";
 
 export default {
 	globals: {
@@ -6,29 +6,29 @@ export default {
 	},
 	clearMocks: true,
 	coveragePathIgnorePatterns: [
-		'\\\\node_modules\\\\',
+		"\\\\node_modules\\\\",
 	],
 	moduleDirectories: [
-		'node_modules', '.',
+		"node_modules", ".",
 	],
 	moduleFileExtensions: [
-		'js',
-		'jsx',
-		'ts',
-		'tsx',
-		'json',
-		'node',
+		"js",
+		"jsx",
+		"ts",
+		"tsx",
+		"json",
+		"node",
 	],
-	testEnvironment: 'jsdom',
-	rootDir: '../../',
+	testEnvironment: "jsdom",
+	rootDir: "../../",
 	testMatch: [
-		'<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)',
+		"<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)",
 	],
 	moduleNameMapper: {
-		'\\.s?css$': 'identity-obj-proxy',
-		'\\.svg': path.resolve(__dirname, 'jestEmptyComponent.tsx'),
+		"\\.s?css$": "identity-obj-proxy",
+		"\\.svg": path.resolve(__dirname, "jestEmptyComponent.tsx"),
 	},
-	setupFilesAfterEnv: ['<rootDir>/config/jest/setupTests.ts'],
+	setupFilesAfterEnv: ["<rootDir>/config/jest/setupTests.ts"],
 
 	// Indicates whether the coverage information should be collected while executing the test
 	// collectCoverage: false,

@@ -1,4 +1,21 @@
 {
-    "typescript.tsdk": "node_modules\\typescript\\lib",
-    "editor.codeActionsOnSave": {}
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"editor.codeActionsOnSave": {},
+	"restoreTerminals.terminals": [
+		{
+			"splitTerminals": [
+				{
+					"name": "webpack server",
+					"commands": ["npm start"]
+				},
+				{
+					"name": "storybook",
+					"commands": ["npm run storybook"]
+				},
+				{
+					"name": "commands"
+				}
+			]
+		}
+	]
 }

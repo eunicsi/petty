@@ -21,9 +21,7 @@ const Sidebar: FC<SidebarProps> = (props) => {
 		setCollapsed((prev) => !prev);
 	};
 
-	const {
-		className,
-	} = props;
+	const { className } = props;
 
 	return (
 		<div

@@ -13,6 +13,10 @@
 					"commands": ["npm run storybook"]
 				},
 				{
+					"name": "json server",
+					"commands": ["npm run start:dev:server"]
+				},
+				{
 					"name": "commands"
 				}
 			]

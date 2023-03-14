@@ -1,4 +1,4 @@
-import React, { InputHTMLAttributes, memo, useEffect } from "react";
+import React, { InputHTMLAttributes, memo } from "react";
 import { classNames } from "shared/lib/classNames/classNames";
 import cls from "./Input.module.scss";
 
@@ -11,7 +11,6 @@ interface InputProps extends HTMLInputProps {
 	className?: string;
 	value?: string;
 	onChange?: (value: string) => void;
-	autofocus?: boolean;
 }
 
 const Input = memo((props: InputProps) => {
@@ -23,8 +22,6 @@ const Input = memo((props: InputProps) => {
 		placeholder,
 		...otherProps
 	} = props;
-
-	useEffect(() => {}, []);
 
 	const onChangeHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
 		onChange?.(e.target.value);

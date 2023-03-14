@@ -6,13 +6,15 @@ interface LoaderProps {
 	className?: string;
 }
 
-const Loader = ({ className }: LoaderProps) => (
-	<div className={classNames(cls.loader, {}, [className])}>
-		<div className={cls.center}>
-			<div className={cls.ring} />
-			<span>{t("загрузка")}</span>
+const Loader = ({ className }: LoaderProps) => {
+	return (
+		<div className={classNames(cls.loader, {}, [className])}>
+			<div className={cls.center}>
+				<div className={cls.ring} />
+				<span>{t("загрузка")}</span>
+			</div>
 		</div>
-	</div>
-);
+	);
+};
 
 export default Loader;

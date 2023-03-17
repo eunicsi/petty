@@ -41,6 +41,13 @@
 		}
 	],
 	"profile": {
-		"name": "typicode"
+		"first": "Eugeny",
+		"lastname": "Sibirev",
+		"age": 25,
+		"currency": "RUB",
+		"country": "Russia",
+		"city": "Saint-Petersburg",
+		"username": "admin",
+		"avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRMb1UYzyxyw4v87Jy-ldJFPLJb8gNT70Ox4R91QBbvk8LM500Xk7k53iuO1uCA9gcFQE&usqp=CAU"
 	}
 }

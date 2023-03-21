@@ -61,9 +61,11 @@ module.exports = {
 		"no-param-reassign": "off",
 		"prefer-destructuring": ["error", { object: true, array: false }],
 		"arrow-body-style": ["warn", "always"],
+		"no-undef": "off",
 	},
 	globals: {
 		__IS_DEV__: true,
+		__API__: true,
 	},
 	overrides: [
 		{

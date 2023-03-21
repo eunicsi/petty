@@ -1,53 +1,53 @@
 {
-	"posts": [
-		{
-			"id": "1",
-			"title": "json-server",
-			"author": "typicode"
-		},
-		{
-			"id": "2",
-			"title": "json-server2",
-			"author": "typicode2"
-		},
-		{
-			"id": "3",
-			"title": "json-server3",
-			"author": "typicode3"
-		},
-		{
-			"id": "4",
-			"title": "json-server4",
-			"author": "typicode4"
-		},
-		{
-			"id": "5",
-			"title": "json-server5",
-			"author": "typicode5"
-		}
-	],
-	"comments": [
-		{
-			"id": "1",
-			"body": "some comment",
-			"postId": 1
-		}
-	],
-	"users": [
-		{
-			"id": "1",
-			"username": "admin",
-			"password": "123"
-		}
-	],
-	"profile": {
-		"first": "Eugeny",
-		"lastname": "Sibirev",
-		"age": 25,
-		"currency": "RUB",
-		"country": "Russia",
-		"city": "Saint-Petersburg",
-		"username": "admin",
-		"avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRMb1UYzyxyw4v87Jy-ldJFPLJb8gNT70Ox4R91QBbvk8LM500Xk7k53iuO1uCA9gcFQE&usqp=CAU"
-	}
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "2",
+      "title": "json-server2",
+      "author": "typicode2"
+    },
+    {
+      "id": "3",
+      "title": "json-server3",
+      "author": "typicode3"
+    },
+    {
+      "id": "4",
+      "title": "json-server4",
+      "author": "typicode4"
+    },
+    {
+      "id": "5",
+      "title": "json-server5",
+      "author": "typicode5"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123"
+    }
+  ],
+  "profile": {
+    "first": "Eugeny",
+    "lastname": "Sibirev",
+    "age": 25,
+    "currency": "USD",
+    "country": "Kazakhstan",
+    "city": "Saint-Petersburg",
+    "username": "admin",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/481px-Cat03.jpg"
+  }
 }
